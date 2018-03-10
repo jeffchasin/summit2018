@@ -1,0 +1,25 @@
+{
+  "name": "helloworld-extension-for-summit",
+  "version": "1.1.0",
+  "description": "Hello world extension for 2018 Summit Labs",
+  "author": {
+    "name": "Adobe Systems Incorporated",
+    "url": "https://developer.adobelaunch.com/guides/extensions/"
+  },
+  "scripts": {
+    "scaffold": "reactor-scaffold",
+    "sandbox": "reactor-sandbox",
+    "package": "reactor-packager"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jeffchasin/summit2018.git"
+  },
+  "devDependencies": {
+    "@adobe/reactor-scaffold": "^1.1.10",
+    "@adobe/reactor-sandbox": "^8.2.1",
+    "@adobe/reactor-turbine": "^24.2.1",
+    "@adobe/reactor-packager": "^2.6.2"
+  },
+  "license": "ISC"
+}
