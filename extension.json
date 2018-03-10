@@ -1,0 +1,70 @@
+{
+  "displayName": "Hello Summit",
+  "name": "hello-summit",
+  "version": "1.0.0",
+  "description": "Greets users in a friendly fashion",
+  "author": {
+    "name": "Duane the Canadian Knob"
+  },
+  "viewBasePath": "src/view/",
+  "configuration": {
+    "viewPath": "configuration/configuration.html",
+    "schema": {
+      "$schema": "http://json-schema.org/draft-04/schema#",
+      "type": "object",
+      "properties": {}
+    }
+  },
+  "events": [
+    {
+      "displayName": "delay",
+      "name": "delay",
+      "libPath": "src/lib/events/delay.js",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "viewPath": "events/delay.html"
+    }
+  ],
+  "conditions": [
+    {
+      "displayName": "queryParameter",
+      "name": "queryparameter",
+      "libPath": "src/lib/conditions/queryparameter.js",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "viewPath": "conditions/queryparameter.html"
+    }
+  ],
+  "actions": [
+    {
+      "displayName": "alert",
+      "name": "alert",
+      "libPath": "src/lib/actions/alert.js",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "viewPath": "actions/alert.html"
+    }
+  ],
+  "dataElements": [
+    {
+      "displayName": "name",
+      "name": "name",
+      "libPath": "src/lib/dataElements/name.js",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "viewPath": "dataElements/name.html"
+    }
+  ]
+}
